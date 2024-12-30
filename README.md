@@ -26,7 +26,10 @@ To generate code use the `Mim` command.  The `Mim` command can be used in both V
 yank whatever lines are highlighted and replace based on prompt.  If in NORMAL mode it will yank all lines in the current buffer and replace them. To start off
 generating code from scratch without any context, enter VISUAL mode on empty line and call command
 ```
-:'<,'>Mim write your prompt here
+:'<,'>Mim write your prompt here // will only make changes to selected lines
 ```
-it will generate code based on the prompt and insert it at the line where cursor is located.
+it will generate code based on the prompt and insert it at the line where cursor is located.  And in NORMAL mode
+```
+:Mim explain changes to make here // will rewrite entire buffer according to prompt
+```
 
