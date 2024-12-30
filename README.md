@@ -11,7 +11,7 @@ return {
 ```
 The plugin currently supports text-based messages for Anthropic and OpenAI models.  To specify which model, set the environment variable `MIMIR_MODEL`
 ```
-export MIMIR_MODEL=claude-3-5-sonnet-20240620
+export MIMIR_MODEL=claude-3-5-sonnet-latest
 ```
 
 > **⚠️ WARNING**
